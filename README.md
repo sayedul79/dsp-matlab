@@ -20,6 +20,7 @@ For publication quality plots you will need to download [PlotPub](https://github
 |10|Familiarization with  Advanced DSP topics|
 
 ### Lab-01: Familiarization with basic MATLAB commands and tools.
+You will find the Python code [here](https://github.com/sayedul79/dsp-python/blob/main/lab-01.ipynb)
 
 * Use the Wallis Product to determine the value of $\pi$
 $$ \pi = 2\times \frac{2\cdot2\cdot4\cdot4\cdot6\cdot6\cdots}{1\cdot3\cdot3\cdot5\cdot5\cdot7\cdots} $$
