@@ -1,6 +1,6 @@
-# Digital Signal Processional
+# Digital Signal Processing Sessional
 
-I have done this lab work for _EEE-496_ course at [CUET](www.cuet.ac.bd)
+I have done this lab work for _EEE-496_ course at [CUET](https://www.cuet.ac.bd/)
 
 ## Requirement
 
