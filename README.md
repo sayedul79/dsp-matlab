@@ -11,7 +11,7 @@ For publication quality plots you will need to download [PlotPub](https://github
 |01|Familiarization with basic MATLAB commands and tools|
 |02|Introduction to elementary signals, systems and  signal manipulation  techniques|
 |03|Sampling theorem|
-|04|LTI System as filte|
+|04|LTI System as filter|
 |05|Application of Z-transform and inverse Z-transform|
 |06|Frequency Domain and Fourier Transform –Part 1|
 |07|Frequency Domain and Fourier Transform –Part II|
