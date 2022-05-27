@@ -45,4 +45,6 @@ $\qquad$[Matlab Code](https://github.com/sayedul79/dsp-matlab/blob/main/lab_01_p
 $$ \frac{\pi^2}{6} = (\frac{2^2}{2^2-1}\cdot\cfrac{3^2}{3^2-1}\cdot\cfrac{5^2}{5^2-1}\cdot\cfrac{7^2}{7^2-1}\cdot\frac{11^2}{11^2-1}\cdots)$$
 $\qquad$[Matlab Code](https://github.com/sayedul79/dsp-matlab/blob/main/lab_01_pi_from_zeta_function.m)
 
+* [Lab Report](https://github.com/sayedul79/dsp-matlab/blob/main/lab-report/lab01-EEE-496.pdf)
+
 ### Lab-02: Introduction to elementary signals, systems and  signal manipulation  techniques
