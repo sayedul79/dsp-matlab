@@ -72,4 +72,6 @@ $\qquad$[Matlab Code](https://github.com/sayedul79/dsp-matlab/blob/main/lab_01_p
   * [Design Bandpass filter using all window (matlab code)](lab-report-latex-file/LPF-HPF-BPF-BSF-using-different-window/matlab-code/All_window_band_pass_filter.m)
   * [Design band stop filter using all window (matlab code)](lab-report-latex-file/LPF-HPF-BPF-BSF-using-different-window/matlab-code/All_window_band_stop_filter.m)
 
-
+* Aliasing and Wavlet Analysis
+  * [Aliasing (matlab code)](https://github.com/sayedul79/dsp-matlab/blob/main/aliasing.m)
+  * [Report](https://github.com/sayedul79/dsp-matlab/blob/main/lab-report/aliasing-and-wavlet-analysis.docx)
