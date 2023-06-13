@@ -1,0 +1,63 @@
+\documentclass[12pt, letterpaper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{breqn}
+\usepackage{subcaption}
+\usepackage{color}   %May be necessary if you want to color links
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true, %set true if you want colored links
+    linktoc=all,     %set to all if you want both sections and subsections linked
+    linkcolor=blue,  %choose some color if you want links to stand out
+}
+\usepackage[useliterate]{mcode}
+%\usepackage[numbered,framed]{matlab-prettifier}
+\title{Design Low Pass, High Pass and Band Pass Filter By Using Butterworth Filter.}
+\author{MD. Sayedul}
+
+\lstset{basicstyle=\ttfamily\large,breaklines=true}
+\definecolor{bg}{rgb}{0.95,0.95,0.95}
+\input{function}
+
+\begin{document}
+\input{title-page}
+\tableofcontents
+\newpage
+\section{Objectives}
+The objectives of the experiment are:
+\begin{enumerate}
+    \item To design a low pass Butterworth filter without using MATLAB predefined function.
+    \item To import voice data in MATLAB and adding noise to it.
+    \item To filter the noisy signal with a low pass filter to recover the original voice signal.
+    \item To design a high pass and band pass filter and filtered a signal from a harmonic signal.
+    \item To determine cross correlation between the recorded and filtered signal.
+\end{enumerate}
+
+\section{Filter a noisy voice signal with the help of low pass filter}
+
+\subsection{Code}
+\lstinputlisting[backgroundcolor=\color{bg}]{matlab-code/lab_4_low_pass.m}
+\subsection{Figure}
+\AddFigure{figure/lab-04LowVoice.png}{figure/lab-04LowVoiceNoise.png}{(a) Recorded Voice signal at sampling frequency 16000 Hz. (b) Recorded Voice signal with noise at sampling frequency 16000 Hz.}
+
+\AddFigure{figure/lab-04LowVoiceSpecturm.png}{figure/lab-04LowVoiceNoiseSpecturm.png}{(a) Frequency spectrum of recorded voice signal. (b) Frequency spectrum of recorded voice signal with noise.}
+
+\AddFigure{figure/lab-04LowFilteredVoice.png}{figure/lab-04LowFilteredSpecturm.png}{(a) Recovered voice signal from a noisy signal with the help of Butterworth low pass filter. (b) Frequency spectrum of filtered voice signal.}
+\newpage
+\AddFigure{figure/lab-04LowFresponse.png}{figure/lab-04LowCorr.png}{(a) Magnitude response of Botterworth low pass filter. (b) Cross correlation between original voice signal and filtered voice signal.}
+
+\section{Design a high pass filter.}
+\subsection{Code}
+\lstinputlisting[backgroundcolor=\color{bg}]{matlab-code/lab_4_high_pass_signal.m}
+\subsection{Figure}
+\AddFigure{figure/lab-04HighPassAllSignal.png}{figure/lab-04HighPassSpecturm.png}{(a) A signal $\sin(200\pi\cdot t)+\sin(40\pi\cdot t)$ which is the the sum of two signal $\sin(200\pi\cdot t)$ and $\sin(40\pi\cdot t)$. (b) Frequency spectrum of signal $\sin(200\pi\cdot t)+\sin(40\pi\cdot t)$.}
+\newpage
+\AddFigure{figure/lab-04HighPassFilter.png}{figure/lab-04HighSignal.png}{(a) Frequency spectrum of filtered voice signal. (b) Recovered $\sin(200\pi\cdot t$ signal from $\sin(200\pi\cdot t+\sin(40\pi\cdot t$ signal with the help of Bitterworth high pass filter.}
+\section{User defined low pass filter.}
+\subsection{Code}
+\lstinputlisting[backgroundcolor=\color{bg}]{matlab-code/lab_04_user_defined_buttter.m}
+
+\end{document}

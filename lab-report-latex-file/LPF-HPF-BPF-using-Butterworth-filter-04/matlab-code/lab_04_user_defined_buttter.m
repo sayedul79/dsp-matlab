@@ -1,0 +1,9 @@
+function [order,w_c]]=ButterWorthFilter(w_p, w_s, G_p_db, G_s_db)
+G_p_db=-3;
+G_s_db=-25;
+w_p=20;
+w_s=50;
+numerator_order=log((10^(-G_s_db/10)-1)/(10^(-G_p_db/10)-1));
+denominator_order=2*log(w_s/w_p);
+order=ceil(numerator_order/denominator_order);
+w_c=w_p/(10^(-G_p_db/10)-1)^(1/(2*order));

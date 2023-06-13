@@ -1,0 +1,153 @@
+ \documentclass[12pt, letterpaper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{breqn}
+\usepackage{subcaption}
+\usepackage{color}   %May be necessary if you want to color links
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true, %set true if you want colored links
+    linktoc=all,     %set to all if you want both sections and subsections linked
+    linkcolor=blue,  %choose some color if you want links to stand out
+}
+\usepackage[useliterate]{mcode}
+%\usepackage[numbered,framed]{matlab-prettifier}
+\title{Design Low Pass, High Pass, Band Pass and Band stop FIR filter using different types of window.}
+\author{MD. Sayedul}
+
+\lstset{basicstyle=\ttfamily\large,breaklines=true}
+\definecolor{bg}{rgb}{0.95,0.95,0.95}
+\input{function}
+
+\begin{document}
+\input{title-page}
+\tableofcontents
+\newpage
+\section{Objectives}
+The objectives of the experiment are:
+\begin{enumerate}
+    \item To design a low pass filter using Hamming, Hanning, Blackman and Berlett window with MATLAB.
+    \item To design a high pass filter using Hamming, Hanning, Blackman and Berlett window with MATLAB.
+    \item To design a band pass and band stop filter using Hamming, Hanning, Blackman and Berlett window with MATLAB.
+\end{enumerate}
+
+\section{Low pass filter}
+
+\lstinputlisting[backgroundcolor=\color{bg}]{matlab-code/All_window_low_pass_filter.m}
+\newpage
+\subsection{Frequency response of LPF using rectangular window}
+\AddFigure{figure/rectangular_lpf_magnitude.png}{figure/rectangular_lpf_angle.png}{(a) Magnitude response of LPF using rectangular window. (b) Phase response of LPF using rectangular window.}
+
+\subsection{Frequency response of LPF using Barlet window}
+\AddFigure{figure/barlet_lpf_magnitude.png}{figure/barlet_lpf_angle.png}{(a) Magnitude response of LPF using Barlet window. (b) Phase response of LPF using Barlet window.}
+\newpage
+
+\subsection{Frequency response of LPF using Hamming window}
+\AddFigure{figure/hamming_lpf_magnitude.png}{figure/hamming_lpf_angle.png}{(a) Magnitude response of LPF using hamming window. (b) Phase response of LPF using hamming window.}
+
+\subsection{Frequency response of LPF using Hanning window}
+\AddFigure{figure/hanning_lpf_magnitude.png}{figure/hanning_lpf_angle.png}{(a) Magnitude response of LPF using hanning window. (b) Phase response of LPF using hanning window.}
+\newpage
+
+\subsection{Frequency response of LPF using blackman window}
+\AddFigure{figure/blackman_lpf_magnitude.png}{figure/blackman_lpf_angle.png}{(a) Magnitude response of LPF using blackman window. (b) Phase response of LPF using blackman window.}
+
+
+ \section{High pass filter}
+
+\lstinputlisting[backgroundcolor=\color{bg}]{matlab-code/All_window_high_pass_filter.m}
+
+\subsection{Frequency response of HPF using rectangular window}
+\AddFigure{figure/rectangular_hpf_magnitude.png}{figure/rectangular_hpf_angle.png}{(a) Magnitude response of HPF using rectangular window. (b) Phase response of HPF using rectangular window.}
+
+
+\subsection{Frequency response of HPF using Barlet window}
+\AddFigure{figure/barlet_hpf_magnitude.png}{figure/barlet_hpf_angle.png}{(a) Magnitude response of HPF using Barlet window. (b) Phase response of HPF using Barlet window.}
+
+
+\subsection{Frequency response of HPF using Hamming window}
+\AddFigure{figure/hamming_Hpf_magnitude.png}{figure/hamming_Hpf_angle.png}{(a) Magnitude response of HPF using hamming window. (b) Phase response of HPF using hamming window.}
+
+
+\subsection{Frequency response of HPF using Hanning window}
+\AddFigure{figure/hanning_hpf_magnitude.png}{figure/hanning_hpf_angle.png}{(a) Magnitude response of HPF using hanning window. (b) Phase response of HPF using hanning window.}
+\newpage
+
+\subsection{Frequency response of HPF using blackman window}
+\AddFigure{figure/blackman_hpf_magnitude.png}{figure/blackman_hpf_angle.png}{(a) Magnitude response of HPF using blackman window. (b) Phase response of HPF using blackman window.}
+
+
+\section{Band pass filter}
+
+\lstinputlisting[backgroundcolor=\color{bg}]{matlab-code/All_window_band_pass_filter.m}
+\newpage
+
+\subsection{Frequency response of BPF using rectangular window}
+\AddFigure{figure/rectangular_bpf_magnitude.png}{figure/rectangular_bpf_angle.png}{(a) Magnitude response of BPF using rectangular window. (b) Phase response of BPF using rectangular window.}
+
+
+\subsection{Frequency response of BPF using Barlet window}
+\AddFigure{figure/barlet_bpf_magnitude.png}{figure/barlet_bpf_angle.png}{(a) Magnitude response of BPF using Barlet window. (b) Phase response of BPF using Barlet window.}
+\newpage
+
+\subsection{Frequency response of BPF using Hamming window}
+\AddFigure{figure/hamming_bpf_magnitude.png}{figure/hamming_bpf_angle.png}{(a) Magnitude response of BPF using hamming window. (b) Phase response of BPF using hamming window.}
+
+\subsection{Frequency response of BPF using Hanning window}
+\AddFigure{figure/hanning_bpf_magnitude.png}{figure/hanning_bpf_angle.png}{(a) Magnitude response of BPF using hanning window. (b) Phase response of BPF using hanning window.}
+\newpage
+
+\subsection{Frequency response of BPF using blackman window}
+\AddFigure{figure/blackman_bpf_magnitude.png}{figure/blackman_bpf_angle.png}{(a) Magnitude response of BPF using blackman window. (b) Phase response of BPF using blackman window.}
+
+\section{Band stop filter}
+
+\lstinputlisting[backgroundcolor=\color{bg}]{matlab-code/All_window_band_stop_filter.m}
+\newpage
+
+\subsection{Frequency response of BSF using rectangular window}
+\AddFigure{figure/rectangular_bsf_magnitude.png}{figure/rectangular_bsf_angle.png}{(a) Magnitude response of BSF using rectangular window. (b) Phase response of BSF using rectangular window.}
+
+
+\subsection{Frequency response of BSF using Barlet window}
+\AddFigure{figure/barlet_bsf_magnitude.png}{figure/barlet_bsf_angle.png}{(a) Magnitude response of BSF using Barlet window. (b) Phase response of BSF using Barlet window.}
+\newpage
+
+\subsection{Frequency response of BSF using Hamming window}
+\AddFigure{figure/hamming_bsf_magnitude.png}{figure/hamming_bsf_angle.png}{(a) Magnitude response of BSF using hamming window. (b) Phase response of BSF using hamming window.}
+
+
+\subsection{Frequency response of BSF using Hanning window}
+\AddFigure{figure/hanning_bsf_magnitude.png}{figure/hanning_bsf_angle.png}{(a) Magnitude response of BSF using hanning window. (b) Phase response of BSF using hanning window.}
+\newpage
+
+\subsection{Frequency response of BSF using blackman window}
+\AddFigure{figure/blackman_bsf_magnitude.png}{figure/blackman_bsf_angle.png}{(a) Magnitude response of BSF using blackman window. (b) Phase response of BSF using blackman window.}
+
+\subsection{Error analysis for LPF and HPF}
+The error function for low pass filter is defined as:
+\begin{equation}
+E_{low}=
+    \begin{cases}
+        1-A_e({e^{j\omega}}) & 0\leq\omega\leq \omega_{p}\\
+        0-A_e({e^{j\omega}}) & \omega_{s}\leq\omega\leq \pi
+    \end{cases}
+\end{equation}
+
+The error function for high pass filter is defined as:
+\begin{equation}
+E_{high}=
+    \begin{cases}
+        0-A_e({e^{j\omega}}) & 0\leq\omega\leq \omega_{s}\\
+        1-A_e({e^{j\omega}}) & \omega_{p}\leq\omega\leq \pi
+    \end{cases}
+\end{equation}
+\newpage
+\AddFigure{figure/lpf_absolute_error.png}{figure/hpf_absolute_error.png}{(a) The sum of absolute errors in the low pass filter for each window.Here the barlet window has the maximum error, whereas the Blackman window has the minimum error for a fixed filter order. (b)  The sum of absolute errors in the high pass filter for each window.Here the barlet window has the maximum error, whereas the Blackman window has the minimum error for a fixed filter order.}
+
+\section{Discussion}
+\end{document}

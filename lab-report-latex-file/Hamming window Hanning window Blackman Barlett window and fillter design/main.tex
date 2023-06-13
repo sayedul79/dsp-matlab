@@ -1,0 +1,71 @@
+\documentclass[12pt, letterpaper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{breqn}
+\usepackage{subcaption}
+\usepackage{color}   %May be necessary if you want to color links
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true, %set true if you want colored links
+    linktoc=all,     %set to all if you want both sections and subsections linked
+    linkcolor=blue,  %choose some color if you want links to stand out
+}
+\usepackage[useliterate]{mcode}
+%\usepackage[numbered,framed]{matlab-prettifier}
+\title{Design Low Pass, High Pass and Band Pass FIR filter.}
+\author{MD. Sayedul}
+
+\lstset{basicstyle=\ttfamily\large,breaklines=true}
+\definecolor{bg}{rgb}{0.95,0.95,0.95}
+\input{function}
+
+\begin{document}
+\input{title-page}
+\tableofcontents
+\newpage
+\section{Objectives}
+The objectives of the experiment are:
+\begin{enumerate}
+    \item To design Hamming window, Hanning window, Blackman, Berlett window using MATLAB.
+    \item To design low pass, high pass, band pass kernal.
+    \item To design low pass, high pass, band pass FIR filter.
+\end{enumerate}
+
+\section{Different type of window}
+
+\subsection{Hamming window}
+\lstinputlisting[backgroundcolor=\color{bg}]{matlab-code/hamming_window.m}
+\subsection{Hnning window}
+\lstinputlisting[backgroundcolor=\color{bg}]{matlab-code/hanning_window.m}
+\subsection{Figure}
+\AddFigure{figure/hamming_window.png}{figure/hanning_window.png}{(a) Hamming window. (b) Hanning window.}
+
+\subsection{Blackman window}
+\lstinputlisting[backgroundcolor=\color{bg}]{matlab-code/blackman_window.m}
+\subsection{Barlett window}
+\lstinputlisting[backgroundcolor=\color{bg}]{matlab-code/bartlett_window.m}
+\subsection{Figure}
+\AddFigure{figure/blackman_window.png}{figure/barlett_window.png}{(a) Blackman window. (b) Barlett window.}
+
+\section{Different type of kernal}
+\subsection{Low pass filter kernal}
+\lstinputlisting[backgroundcolor=\color{bg}]{matlab-code/LowPassKernal.m}
+\AddFigure{figure/LPF_kernal_time_domain.png}{figure/LPF_kernal_frequency_domain.png}{(a) Kernal of low pass filter in time domain. (b) Kernal of low pass filter in frequency domain.}
+
+\subsection{High pass filter kernal}
+\lstinputlisting[backgroundcolor=\color{bg}]{matlab-code/HighPassKernal.m}
+\AddFigure{figure/HPF_kernal_time_domain.png}{figure/HPF_kernal_frequency_domain.png}{(a) Kernal of high pass filter in time domain. (b) Kernal of high pass filter in frequency domain.}
+\newpage
+\section{Different type of filter response}
+\subsection{Low pass filter response}
+\lstinputlisting[backgroundcolor=\color{bg}]{matlab-code/low_pass_filter.m}
+\AddFigure{figure/LPF_time_domain_response.png}{figure/LPF_frequency_response.png}{(a) Response of low pass filter in time domain. (b) Response of low pass filter in frequency domain.}
+
+\subsection{High pass filter response}
+\lstinputlisting[backgroundcolor=\color{bg}]{matlab-code/high_pass_filter.m}
+\AddFigure{figure/HPF_time_domain_response.png}{figure/HPF_frequency_response.png}{(a) Response of high pass filter in time domain. (b) Response of high pass filter in frequency domain.}
+\end{document}
+
