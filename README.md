@@ -61,7 +61,7 @@ $\qquad$[Matlab Code](https://github.com/sayedul79/dsp-matlab/blob/main/lab_01_p
   * [Low Pass Kernal](lab-report-latex-file/Hamming window Hanning window Blackman Barlett window and fillter design/matlab-code/LowPassKernal.m)
   * [High Pass Kernal](lab-report-latex-file/Hamming window Hanning window Blackman Barlett window and fillter design/matlab-code/HighPassKernal.m)
   * [Low Pass Filter](lab-report-latex-file/Hamming window Hanning window Blackman Barlett window and fillter design/matlab-code/low_pass_filter.m)
-  * [High Pass Filter](lab-report-latex-file/Hamming window Hanning window Blackman Barlett window and fillter design/matlab-code/high_pass_filter.m)
+  * [High Pass Filter](lab-report-latex-file/Hamming%20window%20Hanning%20window%20Blackman%20Barlett%20window%20and%20filter%20design/matlab-code/high_pass_filter.m)
 * [LPF, HPF, BPF Using Butterworth filter (Overleaf)](https://www.overleaf.com/read/rcvtpjdyqqkg)
   * [User defined butterworth filter](lab-report-latex-file/LPF-HPF-BPF-using-Butterworth-filter-04/matlab-code/lab_04_user_defined_buttter.m)
   * [Design a high pass filter and test it with a signal](lab-report-latex-file/LPF-HPF-BPF-using-Butterworth-filter-04/matlab-code/lab_4_high_pass_signal.m)
