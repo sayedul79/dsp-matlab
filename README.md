@@ -49,3 +49,12 @@ $\qquad$[Matlab Code](https://github.com/sayedul79/dsp-matlab/blob/main/lab_01_p
 * [Lab Report](https://github.com/sayedul79/dsp-matlab/blob/main/lab-report/lab01-EEE-496.pdf)
 
 ### Lab-02: Introduction to elementary signals, systems and  signal manipulation  techniques
+* [Impulse Step Ramp and Parabolic Signal(Overleaf)](https://www.overleaf.com/read/wbwnnwpxbqdm)
+* [Generate different type of signal(Overleaf)](https://www.overleaf.com/read/jrycwvwvhdcq)
+
+### Filter design
+* [Hamming window Hanning window Blackman Barlett window and fillter design (Overleaf)](https://www.overleaf.com/read/vsqwgtsbsmrq)
+* [LPF, HPF, BPF Using Butterworth filter (Overleaf)](https://www.overleaf.com/read/rcvtpjdyqqkg)
+* [LPF HPF BPF BSF using different window(Overleaf)](https://www.overleaf.com/read/nkgtbsfcqzpr)
+
+
