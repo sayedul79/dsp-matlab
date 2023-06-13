@@ -54,8 +54,22 @@ $\qquad$[Matlab Code](https://github.com/sayedul79/dsp-matlab/blob/main/lab_01_p
 
 ### Filter design
 * [Hamming window Hanning window Blackman Barlett window and fillter design (Overleaf)](https://www.overleaf.com/read/vsqwgtsbsmrq)
-  * [Hamming Window{matlab code}](https://github.com/sayedul79/dsp-matlab/blob/main/lab-report-latex-file/Hamming%20window%20Hanning%20window%20Blackman%20Barlett%20window%20and%20fillter%20design/matlab-code/hamming_window.m)
+  * [Hamming Window {matlab code}](https://github.com/sayedul79/dsp-matlab/blob/main/lab-report-latex-file/Hamming%20window%20Hanning%20window%20Blackman%20Barlett%20window%20and%20fillter%20design/matlab-code/hamming_window.m)
+  * [Hanning Window {matlab code}](lab-report-latex-file/Hamming window Hanning window Blackman Barlett window and fillter design/matlab-code/hanning_window.m)
+  * [Blackman Window (matlab code)](lab-report-latex-file/Hamming window Hanning window Blackman Barlett window and fillter design/matlab-code/blackman_window.m)
+  * [Barlett Window (matlab code)](lab-report-latex-file/Hamming window Hanning window Blackman Barlett window and fillter design/matlab-code/bartlett_window.m)
+  * [Low Pass Kernal](lab-report-latex-file/Hamming window Hanning window Blackman Barlett window and fillter design/matlab-code/LowPassKernal.m)
+  * [High Pass Kernal](lab-report-latex-file/Hamming window Hanning window Blackman Barlett window and fillter design/matlab-code/HighPassKernal.m)
+  * [Low Pass Filter](lab-report-latex-file/Hamming window Hanning window Blackman Barlett window and fillter design/matlab-code/low_pass_filter.m)
+  * [High Pass Filter](lab-report-latex-file/Hamming window Hanning window Blackman Barlett window and fillter design/matlab-code/high_pass_filter.m)
 * [LPF, HPF, BPF Using Butterworth filter (Overleaf)](https://www.overleaf.com/read/rcvtpjdyqqkg)
+  * [User defined butterworth filter](lab-report-latex-file/LPF-HPF-BPF-using-Butterworth-filter-04/matlab-code/lab_04_user_defined_buttter.m)
+  * [Design a high pass filter and test it with a signal](lab-report-latex-file/LPF-HPF-BPF-using-Butterworth-filter-04/matlab-code/lab_4_high_pass_signal.m)
+  * [Design a low pass filter and design it with a signal](lab-report-latex-file/LPF-HPF-BPF-using-Butterworth-filter-04/matlab-code/lab_4_low_pass.m)
 * [LPF HPF BPF BSF using different window(Overleaf)](https://www.overleaf.com/read/nkgtbsfcqzpr)
+  * [Design low pass filter using all window](lab-report-latex-file/LPF-HPF-BPF-BSF-using-different-window/matlab-code/All_window_low_pass_filter.m)
+  * [Design high pass filter using all window](lab-report-latex-file/LPF-HPF-BPF-BSF-using-different-window/matlab-code/All_window_high_pass_filter.m)
+  * [Design Bandpass filter using all window](lab-report-latex-file/LPF-HPF-BPF-BSF-using-different-window/matlab-code/All_window_band_pass_filter.m)
+  * [Design band stop filter using all window](lab-report-latex-file/LPF-HPF-BPF-BSF-using-different-window/matlab-code/All_window_band_stop_filter.m)
 
 
